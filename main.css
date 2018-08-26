@@ -1,0 +1,87 @@
+body {
+  /* color: rgb(49, 30, 0); */
+  color: rgb(78, 44, 1);
+  font-family: "hiragino maru gothic proN", -apple-system, 'BlinkMacSystemFont', Helvetica Neue, Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN", Meiryo, Sans-Serif;
+}
+
+.header {
+  padding: 5em 0 0 10em;
+  height: 15em;
+  /* background-image: url("static/kovhat.png"); */
+  background-image: url("static/kovroid_painted_noborder.png");
+  background-size: auto 90%;
+  background-position: 2em 1.5em;
+  background-repeat: no-repeat;
+  /* background-color: rgb(49, 30, 0); */
+  /* background-color: rgb(242, 228, 219); */
+
+  /* see https://developer.mozilla.org/ja/docs/Web/CSS/background */
+  background-color: rgb(255, 230, 230);
+  /* background: 2em 1.5em / auto 90% no-repeat url("static/kovroid_painted_noborder.png"); */
+}
+
+.bg-theme {
+  background-color: rgb(255, 230, 230);
+}
+
+.header .title{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.header .subtitle {
+}
+
+.card {
+  margin: 0 0 1em 0;
+}
+
+.card-img-top {
+  padding-top: 0.5em;
+  height: 11em;
+  object-fit: contain;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: rgb(78, 44, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active {
+  border-bottom-style: solid;
+}
+
+.navbar-toggler {
+  background-color: rgb(78, 44, 1);
+}
+
+.container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer {
+}
+
+a {
+  color: rgb(200, 140, 140);
+}
+
+a:hover {
+  color: rgb(78, 44, 1);
+}
+
+.footer-copyright {
+  padding: 1em 0 1em 0em;
+  text-align: center;
+  background-color: rgb(255, 230, 230);
+}
